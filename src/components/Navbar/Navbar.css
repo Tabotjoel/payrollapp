@@ -1,0 +1,93 @@
+/* Global box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: #003d7a; /* Dark blue */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 70px; /* Adjust height if necessary */
+}
+
+/* Ensure body content doesn't go under the navbar */
+body {
+  margin: 0;
+  padding-top: 70px; /* Same as navbar height */
+  font-family: Arial, sans-serif; /* Optional font choice */
+}
+
+/* General content padding */
+.main-content {
+  padding: 20px;
+}
+
+/* Navbar left section for logo and text */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.logo-text {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navbar right section for navigation links */
+.navbar-right {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right li {
+  margin-left: 1rem; /* Adds space between the links */
+}
+
+.navbar-right a {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem; /* Adds padding for better spacing */
+}
+
+.navbar-right a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive navbar for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .navbar-right {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .navbar-right li {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}

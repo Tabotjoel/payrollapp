@@ -1,0 +1,90 @@
+/* AdminDashboard.css */
+.admin-dashboard {
+    background-color: #f4f7fc; /* Light blue background */
+    color: #333; /* Dark text */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    padding-top: 60px;
+  }
+  
+  h1, h2 {
+    color: #004080; /* Dark blue titles */
+  }
+  
+  .admin-form {
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-bottom: 20px;
+  }
+  
+  .admin-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .admin-form .save-btn {
+    background-color: #004080; /* Blue save button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-form .save-btn:hover {
+    background-color: #003366; /* Darker blue hover */
+  }
+  
+  .user-list {
+    background-color: #fff; /* White background for list */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-list th, .user-list td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .user-list th {
+    background-color: #004080; /* Blue header */
+    color: white;
+  }
+  
+  .user-list .edit-btn, .user-list .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-list .edit-btn {
+    background-color: #4CAF50; /* Green for edit button */
+    color: white;
+  }
+  
+  .user-list .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .user-list .delete-btn {
+    background-color: #f44336; /* Red for delete button */
+    color: white;
+  }
+  
+  .user-list .delete-btn:hover {
+    background-color: #e53935;
+  }
+  

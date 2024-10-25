@@ -1,0 +1,17 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #1f2933; 
+}
+
+.App {
+  text-align: center;
+}
+
